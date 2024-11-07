@@ -3,8 +3,8 @@ using alacnz.server.Models;
 
 namespace alacnz.server.Data.Repositories.Implementations
 {
-    public class CasoRepository : Repository<Caso>, ICasoRepository
+    public class AlertRepository : Repository<Alert>, IAlertRepository
     {
-        public CasoRepository(AppDbContext context) : base(context) { }
+        public AlertRepository(AppDbContext context) : base(context) { }
     }
 }

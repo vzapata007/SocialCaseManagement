@@ -3,8 +3,8 @@ using alacnz.server.Models;
 
 namespace alacnz.server.Data.Repositories.Implementations
 {
-    public class ClienteRepository : Repository<Cliente>, IClienteRepository
+    public class ClientRepository : Repository<Client>, IClientRepository
     {
-        public ClienteRepository(AppDbContext context) : base(context) { }
+        public ClientRepository(AppDbContext context) : base(context) { }
     }
 }

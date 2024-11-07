@@ -2,7 +2,7 @@
 
 namespace alacnz.server.Data.Repositories.Interfaces
 {
-    public interface ICasoRepository : IRepository<Caso>
+    public interface ICaseRepository : IRepository<Case>
     {
         // Métodos adicionales específicos para Caso (si los necesitas)
     }

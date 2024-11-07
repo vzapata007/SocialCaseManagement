@@ -2,7 +2,7 @@
 
 namespace alacnz.server.Data.Repositories.Interfaces
 {
-    public interface IAlertaRepository : IRepository<Alerta>
+    public interface IAlertRepository : IRepository<Alert>
     {
         // Agrega métodos específicos para Alerta si es necesario
     }

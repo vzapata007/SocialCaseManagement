@@ -2,7 +2,7 @@
 
 namespace alacnz.server.Data.Repositories.Interfaces
 {
-    public interface IClienteRepository : IRepository<Cliente>
+    public interface IClientRepository : IRepository<Client>
     {
         // Agrega métodos específicos para Cliente si es necesario
     }
