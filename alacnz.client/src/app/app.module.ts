@@ -6,10 +6,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 //import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { AlertasComponent } from './components/alertas/alertas.component';
-import { ClientesComponent } from './components/clientes/clientes.component';
-import { CasosComponent } from './components/casos/casos.component';
-import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { MatButtonModule } from '@angular/material/button';
 
 import { MatInputModule } from '@angular/material/input';
@@ -20,10 +16,6 @@ import { MatTableModule } from '@angular/material/table';
 @NgModule({
   declarations: [
     AppComponent,
-    AlertasComponent,
-    ClientesComponent,
-    CasosComponent,
-    DashboardComponent
   ],
   imports: [
     BrowserModule,
